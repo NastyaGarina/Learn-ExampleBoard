@@ -1,0 +1,45 @@
+.footer {
+    background: gray;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.subject { 
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 5px auto;
+    line-height: 28px;
+}
+.subtitle {
+    margin: auto;
+    line-height: 28px;
+}
+.socials {
+   margin: 14px 0 0;
+   cursor: pointer;
+   font-size: 18px;
+}
+.socialNetworks {
+    transition: color .4s ease;
+}
+.socialNetworks:hover {
+    color: aqua;
+}
+.button {
+    margin: 3px 7px 10px 7px;
+}
+.button:hover {
+    background: aqua;
+}
+.bottom {
+    background: #5c5c5c;
+    padding: 1px 0;
+    text-align: center;
+}
+.bottom {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

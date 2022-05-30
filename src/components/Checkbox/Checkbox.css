@@ -1,0 +1,15 @@
+.Checkbox {
+    position: absolute;
+}  
+.Checkbox:checked + p {
+    text-decoration: line-through;
+}
+.inDescription {
+    flex: none;
+    margin: 0px 22px;
+}
+.Task {
+    display: flex;
+    position: relative;
+    margin: 4px 0px;
+}

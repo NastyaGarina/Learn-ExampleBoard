@@ -1,0 +1,51 @@
+.header {
+    height: 80px;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 35px;
+    font-family: bold;
+    color: white;
+    padding: 20px 25px;
+}
+.logo:hover{
+    color: aqua;
+}
+.Content {
+    display: flex;
+    align-items: baseline;
+}
+.mainly {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 3px solid transparent;
+    padding: 7px 10px;
+    border-radius: 5px; 
+}
+.mainly:focus {
+    border: 1px solid white;
+    transition: .4s;
+    cursor: pointer;
+}
+.icons {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 25px;
+    display: flex;
+}
+.fa {
+    margin: 0 10px;
+}
+.fa:hover {
+    color: aqua;
+}
+.Ref {
+    text-decoration: none;
+}
+p {
+    margin: 20px;
+}
